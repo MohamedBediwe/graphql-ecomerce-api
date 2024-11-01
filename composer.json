@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Types\\": "graphql/types/",
+            "Config\\": "Config\\",
+            "Resolvers\\": "resolvers/",
+            "Middleware\\": "middleware/"
+        }
+    },
+    "require": {
+        "webonyx/graphql-php": "^15.14",
+        "firebase/php-jwt": "^6.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
